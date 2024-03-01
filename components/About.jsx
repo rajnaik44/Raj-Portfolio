@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+import LaptopImg from "@/public/laptop.jpg"
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -17,12 +20,14 @@ const About = () => {
           <p className="py-2 text-gray-600">
           I initially started coding in my college days , but quickly realized that it was something I was truly passionate about and decided to pursue a career change. It was a big decision, but I am excited to be able to do what I love and help others in the process.
           </p>
-          <p className="py-2 text-gray-600 underline cursor-pointer">Check out some of my latest projects</p>
+          <Link href="/#projects" ><p className="py-2 text-gray-600 underline cursor-pointer">Check out some of my latest projects</p></Link>
         </div>
         <div className="w-full h-full m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <img className="rounded-xl"
-            src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=900&t=st=1709014397~exp=1709014997~hmac=1820b36c672650514985f7dd2b4af7d960ee5ee8ca7628c7bcd58bbfa005e193"
+          <Image className="rounded-xl"
+            src={LaptopImg}
             alt="/"
+            width="100%"
+            height="100%"
           />
         </div>
       </div>

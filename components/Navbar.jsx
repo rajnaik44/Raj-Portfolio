@@ -7,7 +7,6 @@ import { FaLinkedinIn , FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { BsPersonCircle } from "react-icons/bs";
 import { useState , useEffect } from "react";
-import { useRouter } from "next/router";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);

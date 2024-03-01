@@ -4,6 +4,8 @@ import { MdEmail } from "react-icons/md";
 import { BsPersonCircle } from "react-icons/bs";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import Image from "next/image";
+import ContactImg from "@/public/contact.jpg"
 
 const Contact = () => {
   return (
@@ -18,10 +20,12 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full rounded-xl">
               <div>
-                <img
+                <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src={ContactImg}
                   alt="/"
+                  width="100%"
+                  height="auto"
                 />
               </div>
               <div>
