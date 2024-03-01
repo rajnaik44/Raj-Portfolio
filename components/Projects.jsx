@@ -1,8 +1,8 @@
 import React from "react";
-import PROPERTY from "@/public/assets/projects/property.jpg";
+import TEXTUTILimg from "@/public/assets/projects/textutil.png";
 import CRYPTO from "@/public/assets/projects/crypto.jpg";
 import NETFLIX from "@/public/assets/projects/netflix.jpg";
-import TWITCH from "@/public/assets/projects/twitch.jpg";
+import TODOlISTimg from "@/public/assets/projects/todolists.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -15,9 +15,15 @@ const Projects = () => {
         <h2 className="py-4">What I've Built </h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Property Finder"
-            backGroundImg={PROPERTY}
-            projectUrl="/Property"
+            title="Text Util"
+            backGroundImg={TEXTUTILimg}
+            projectUrl="/Textutil"
+            tech="React js"
+          />
+          <ProjectItem
+            title="Todo Lists"
+            backGroundImg={TODOlISTimg}
+            projectUrl="/Todo"
             tech="React js"
           />
           <ProjectItem
@@ -27,14 +33,8 @@ const Projects = () => {
             tech=""
           />
           <ProjectItem
-            title="Coming soon ...."
+            title="Coming soon ...."  
             backGroundImg={NETFLIX}
-            projectUrl="/#projects"
-            tech=""
-          />
-          <ProjectItem
-            title="Coming soon ...."
-            backGroundImg={TWITCH}
             projectUrl="/#projects"
             tech=""
           />

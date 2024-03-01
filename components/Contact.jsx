@@ -76,7 +76,7 @@ const Contact = () => {
                     </label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
-                      type="text"
+                      type="number"
                       name="phone"
                     />
                   </div>
