@@ -14,7 +14,7 @@ const About = () => {
           <h2 className="py-4">Who I Am</h2>
           {/* <p className="py-2 text-gray-600">//I am not your normal developer</p> */}
           <p className="py-2 text-gray-600">
-          My name is Raj and I am a videographer and full stack developer. I've honed a sharp eye for capturing intricate details and telling compelling stories through my lens. In my free time, I enjoy listening to music, I have always had a love for music and find that it helps to relax and inspire me in my work.
+          My name is Raj and I am a videographer and full stack developer. I&apos;ve honed a sharp eye for capturing intricate details and telling compelling stories through my lens. In my free time, I enjoy listening to music, I have always had a love for music and find that it helps to relax and inspire me in my work.
 
           </p>
           <p className="py-2 text-gray-600">
