@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import Image from "next/image";
 import navLogoo from "../public/assets/navLogoo.png";
 import Link from "next/link";
@@ -25,13 +25,13 @@ const Navbar = () => {
           setShadow(false)
         }
       }
-      window.addEventListener('scroll', handleShadow);
+      window.addEventListener("scroll", handleShadow);
 
          }, [])
     
 
   return (
-    <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
+    <div className={shadow ? "fixed w-full h-20 shadow-xl z-[100]" : "fixed w-full h-20 z-[100]"}>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
       <Link href="/">
 <Image src={navLogoo} alt="/" width={100} height={50} />
@@ -65,7 +65,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className={nav ? `md:hidden fixed left-0  top-0  w-full  h-screen bg-black/70` : ''}>
+      <div className={nav ? `md:hidden fixed left-0  top-0  w-full  h-screen bg-black/70` : ""}>
         <div className={nav ? `fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10  ease-in duration-500` : `fixed left-[-100%] top-0 p-10  ease-in duration-500`}>
           <div>
             <div className="flex justify-between w-full items-center ">
@@ -103,17 +103,17 @@ const Navbar = () => {
             <div className="pt-32">
             <p className="uppercase tracking-widest text-[#5651e5]">Let's Connect</p>
             <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-            <a href="http://www.linkedin.com/in/rajnaik44" target='_blank' rel='noreferrer'>
+            <a href="http://www.linkedin.com/in/rajnaik44" target="_blank" rel="noreferrer">
             <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
             <FaLinkedinIn />
             </div>
             </a>
-            <a href="https://github.com/rajnaik44" target='_blank' rel='noreferrer'>
+            <a href="https://github.com/rajnaik44" target="_blank" rel="noreferrer">
             <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
             <FaGithub />
             </div>
             </a>
-            <a href="mailto:raj44.naik@gmail.com" target='_blank' rel='noreferrer'>
+            <a href="mailto:raj44.naik@gmail.com" target="_blank" rel="noreferrer">
             <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
             <MdEmail />
             </div>
