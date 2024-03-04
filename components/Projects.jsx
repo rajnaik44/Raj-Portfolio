@@ -3,6 +3,7 @@ import TEXTUTILimg from "@/public/assets/projects/textutil.png";
 import CRYPTO from "@/public/assets/projects/crypto.jpg";
 import NETFLIX from "@/public/assets/projects/netflix.jpg";
 import TODOlISTimg from "@/public/assets/projects/todolists.png";
+import dataAnaWeb from "@/public/assets/projects/dataAnaWeb.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -14,6 +15,12 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I&apos;ve Built </h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Data-Analytic WEbsite"
+            backGroundImg={dataAnaWeb}
+            projectUrl="/Analytic"
+            tech="Next js"
+          />
           <ProjectItem
             title="Text Util"
             backGroundImg={TEXTUTILimg}
