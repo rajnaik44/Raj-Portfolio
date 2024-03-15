@@ -1,9 +1,9 @@
 import React from "react";
-import TEXTUTILimg from "@/public/assets/projects/textutil.png";
-import CRYPTO from "@/public/assets/projects/crypto.jpg";
+import TEXTUTILimg from "@/public/assets/projects/TextUtil.jpg";
 import NETFLIX from "@/public/assets/projects/netflix.jpg";
-import TODOlISTimg from "@/public/assets/projects/todolists.png";
+import TODOlISTimg from "@/public/assets/projects/todoList.jpg";
 import dataAnaWeb from "@/public/assets/projects/dataAnaWeb.png";
+import MrPizza from '@/public/assets/projects/MrPizza.png'
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -16,7 +16,7 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built </h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Data-Analytic WEbsite"
+            title="Data-Analytic Website"
             backGroundImg={dataAnaWeb}
             projectUrl="/Analytic"
             tech="Next js"
@@ -34,10 +34,10 @@ const Projects = () => {
             tech="React js"
           />
           <ProjectItem
-            title="Coming soon ...."
-            backGroundImg={CRYPTO}
-            projectUrl="/#projects"
-            tech=""
+            title="Mr Pizza"
+            backGroundImg={MrPizza}
+            projectUrl="/Pizza"
+            tech="Next Js"
           />
           <ProjectItem
             title="Coming soon ...."  

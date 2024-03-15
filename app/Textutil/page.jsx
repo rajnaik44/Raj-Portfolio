@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import TEXTUTIlimg from '@/public/assets/projects/textutil.png'
+import TEXTUTIlimg from '@/public/assets/projects/TextUtil.jpg'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
