@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -8,6 +9,12 @@ import Image from "next/image";
 import ContactImg from "@/public/contact.jpg"
 
 const Contact = () => {
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    window.alert("This is just a demo form.");
+  };
+
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -64,7 +71,7 @@ const Contact = () => {
           {/* right */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              <form onSubmit={handleSubmit}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>

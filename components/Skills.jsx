@@ -9,6 +9,9 @@ import NEXTJS from "@/public/assets/skills/nextjs.png";
 import NODEJS from "@/public/assets/skills/node.png";
 import MONGODB from "@/public/assets/skills/mongo.png";
 import GITHUB from "@/public/assets/skills/github1.png";
+import ANGULAR from "@/public/assets/skills/angular.png";
+import TYPESCRIPT from "@/public/assets/skills/typescript.png";
+import MYSQL from "@/public/assets/skills/mySql.png";
 
 
 const Skills = () => {
@@ -48,6 +51,16 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Javascript</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={TYPESCRIPT} width={64} height={64} alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Typescript</h3>
               </div>
             </div>
           </div>
@@ -94,10 +107,30 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
+                <Image src={ANGULAR} width={64} height={64} alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Angular js</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
                 <Image src={MONGODB} width={64} height={64} alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>MongoDB</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={MYSQL} width={64} height={64} alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>MySQl</h3>
               </div>
             </div>
           </div>
